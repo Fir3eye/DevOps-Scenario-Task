@@ -1,6 +1,9 @@
 ## Step-by-Step Guide
 <details>
+
 <summary><b>1. Nginx Setup for `www.abc.com` with SSL</b></summary>
+
+#### Scenario:- Configure Nginx virtual host for www.abc.com to proxy pass to localhost:3000 and then install SSL via Certbot 
 
 #### 1. Update the package list and install Nginx:
 ```
@@ -85,4 +88,14 @@ sudo certbot renew --dry-run
 </details>
 
 <details>
-<summary><b>1. Nginx Setup for `www.abc.com` with SSL</b></summary>
+<summary><b>2. For New Docs</b></summary>
+
+#### Scenario:- your new task
+
+#### 1. Update the package list and install Nginx:
+```
+sudo apt update
+sudo apt install nginx
+```
+
+</details>
